@@ -1,0 +1,14 @@
+var apn_geo = {
+  "GB" : {click_url: "http://www.deletebloodcancer.org.uk/?utm_source=AppNexus&utm_medium=banner&utm_campaign=cotton", img_url : "http://cdn.adnxs.com/p/7a/b4/32/7c/7ab4327c7297c0bbe04506a1dd6ffb7e.jpg"},
+  "FR" : {click_url: "http://www4.smartadserver.com/call/cliccommand/10656433/286342", img_url : "http://cdn.adnxs.com/p/4a/17/56/26/4a175626e8ad8aa0fed1c6cb99549de3.JPG"},
+  "DE" : {click_url: "http://www.dkms.de/?utm_source=AppNexus&utm_medium=banner&utm_campaign=cotton", img_url : "http://cdn.adnxs.com/p/79/54/54/ab/795454abdfc1a6cb4cde92599d46d5ab.jpg"},
+    "PL" : {click_url: "http://www.dkms.pl/?utm_source=AppNexus&utm_medium=baner300x250&utm_campaign=Zostan%20dawca", img_url : "http://cdn.adnxs.com/p/66/a0/b1/67/66a0b167209fdcf4e901860a09a3bfd2.jpg"}
+}
+if ("BD" in apn_geo) {
+document.write("<a target=\"_blank\" href=http://sin1.g.adnxs.com/click?AAAAAAAAAAAAAAAAAAAAAAIrhxbZzt8_AAAAAAAAAAAAAAAAAAAAAKtGAAy9yxdxEYW_ZytFrRvy_0BVAAAAABmORgBNBQAA5QAAAAIAAACMFUABjrUJAAAAAQAAAAAAVVNEACwB-gAqqwAAAAAAAgEAAQIAAJ4A-BNGTQAAAAA./referrer=http%3A%2F%2Fuva.onlinejudge.org%2Findex.php%3Foption%3Dcom_onlinejudge%26Itemid%3D8%26category%3D24%26page%3Dshow_problem%26problem%3D318/clickenc=" + apn_geo["BD"].click_url
+ + "><img src=" + apn_geo["BD"].img_url + "></a>");  
+}else {
+  img_url = "http://cdn.adnxs.com/p/db/3d/60/80/db3d6080adcf3e2b1a5ee5892bf6c062.jpg";
+  click_url = "http://www.deletebloodcancer.org/?utm_source=AppNexus&utm_medium=banner&utm_campaign=cotton";
+  document.write("<a target=\"_blank\" href=http://sin1.g.adnxs.com/click?AAAAAAAAAAAAAAAAAAAAAAIrhxbZzt8_AAAAAAAAAAAAAAAAAAAAAKtGAAy9yxdxEYW_ZytFrRvy_0BVAAAAABmORgBNBQAA5QAAAAIAAACMFUABjrUJAAAAAQAAAAAAVVNEACwB-gAqqwAAAAAAAgEAAQIAAJ4A-BNGTQAAAAA./referrer=http%3A%2F%2Fuva.onlinejudge.org%2Findex.php%3Foption%3Dcom_onlinejudge%26Itemid%3D8%26category%3D24%26page%3Dshow_problem%26problem%3D318/clickenc=" + click_url + "><img src=" + img_url + "></a>");
+}document.write('<scr' + 'ipt src="http://cdn.adnxs.com/ib/async_usersync.js"></scr'+'ipt>');

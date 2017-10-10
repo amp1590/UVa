@@ -1,0 +1,70 @@
+
+<!-- saved from url=(0050)http://uva.onlinejudge.org/external/111/11150.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Cola - Contest of Newbies 2006</title>
+<meta content="Cola" name="description">
+<meta content="document" name="resource-type">
+<meta content="global" name="distribution">
+
+<meta content="MSHTML 6.00.2800.1106" name="GENERATOR">
+<meta http-equiv="Content-Style-Type" content="text/css"><link href="http://uva.onlinejudge.org/external/111/trainingtask.css" rel="STYLESHEET"></head>
+
+
+<body>
+
+<table width="100%" border="0" cellpadding="4" cellspacing="3" style="page-break-inside: avoid">
+	<colgroup><col width="256*">
+	<col width="256*">
+	</colgroup><thead>
+		<tr valign="BOTTOM">
+			<td width="100%" bgcolor="#550077">
+				<p><font color="#ffffff"><font face="Arial Black" size="6">Problem
+				C : Cola</font></font></p><font color="#ffffff">
+			</font></td>
+		</tr>
+		<tr valign="BOTTOM">
+			<td width="100%" bgcolor="#550077">
+				<p align="RIGHT"><font color="#ffffff"><font face="Arial Black" size="3">Time
+				limit: 10 seconds</font></font></p><font color="#ffffff">
+			</font></td>
+		</tr>
+	</thead>
+</table>
+
+<p><font size="6">Y</font>ou see the following special offer by the convenience store:
+
+</p><p><i>" A bottle of Choco Cola for every 3 empty bottles returned "</i>
+
+</p><p>Now you decide to buy some (say <b><i>N</i></b>) bottles of cola from the store. You would like to know how you can get the most cola from them.
+
+</p><p>The figure below shows the case where <b><b><i>N</i></b> = 8</b>. <i>Method 1</i> is the standard way: after finishing your 8 bottles of cola, you have 8 empty bottles.
+   Take 6 of them and you get 2 new bottles of cola. Now after drinking them you have 4 empty bottles, so you take 3 of them to get yet another new cola.
+   Finally, you have only 2 bottles in hand, so you cannot get new cola any more. Hence, you have enjoyed 8 + 2 + 1 = 11 bottles of cola.
+
+</p><p>You can actually do better! In <i>Method 2</i>, you first borrow an empty bottle from your friend (?! Or the storekeeper??), then you can enjoy 8 + 3 + 1 = 12 bottles of cola! Of course, you will have to return your remaining empty bottle back to your friend.
+
+</p><p><img src="p11150.gif">
+
+</p><p></p><h2><a name="SECTION00001000000000000000"><font color="#550077">Input</font></a></h2>
+
+<p>Input consists of several lines, each containing an integer <b><i>N</i></b> (1 ≤ <b><i>N</i></b> ≤ 200).
+
+</p><p></p><h2><a name="SECTION00002000000000000000"><font color="#550077">Output</font></a></h2>
+
+<p>For each case, your program should output the maximum number of bottles of cola you can enjoy. You may borrow empty bottles from others, but if you do that, make sure that you have enough bottles afterwards to return to them.
+
+</p><p></p><h2><a name="SECTION00004000000000000000"><font color="#550077">Sample Input</font></a></h2>
+
+<pre>8
+</pre>
+
+<p></p><h2><a name="SECTION00004000000000000000"><font color="#550077">Sample Output</font></a></h2>
+<pre>12
+</pre>
+
+<p><b>Note:</b> Drinking too much cola is bad for your health, so... don't try this at home!! :-)
+
+</p><p></p><hr><address>Idea from a traditional IQ challenge question.<br>
+Special Thanks: Jonathan Mak</address>
+
+
+</body></html>
